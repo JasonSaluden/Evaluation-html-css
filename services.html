@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul&fils-services</title>
+
+
+    <link rel="stylesheet" href="services.css">
+
+</head>
+
+<body>
+    <!--Header banner-->
+    <nav class="blackBanner">
+        <div class="item-nav logo">
+            <img class="itemSize" src="https://mondemenageur.net/wp-content/uploads/2020/12/logo-400px.png"
+                alt="logo" />
+        </div>
+        <div class="item-nav menuNav">
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li>A propos</li>
+                <li>Services</li>
+                <li>Conseils</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        </div>
+        <div class="item-nav itemRight">
+            <div class="freeDevis">
+                <p>Devis gratuit</p>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- Le premier élement après le header est une bannière divisée en deux parties égales. La partie gauche a du texte, tandis que la partie droite a un imput en plus -->
+    <div class="pageTitle">
+        <div class="grid-container">
+            <div class="grid-item gridBackground">
+                <h1>Nos Services</h1>
+            </div>
+            <div class="text">
+                <li>
+                    <p>Paragraphe. Cliquez ici pour ajouter votre propre texte. Cliquez sur « Modifier Texte » ou
+                        double-cliquez ici pour ajouter votre contenu et personnaliser les polices.</p>
+                </li>
+                <li>
+                    <button class="devisButton">Devis gratuit</button>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comme pour la page index.html, création d'une mosaique de 4 cases, via la fonction grid -->
+
+    <div class="grid-container2">
+        <div class="grid-item2 firstCase">
+            <div class="imgGrid">
+                <img src="assets\Images\2hommes-camionnette.webp" alt="Hommes déchargeant un camion" class="itemSize">
+            </div>
+            <h4>Déménagement à proximité</h4>
+            <p>Paragraphe. Cliquez ici pour ajouter votre propre texte. Présentez-vous et votre entreprise.</p>
+        </div>
+        <div class="grid-item2 secondCase">
+            <div class="imgGrid">
+                <img src="\assets\Images\camionnette.webp" alt="Camionnette" class="itemSize">
+            </div>
+            <h4>Déménagement longue distance</h4>
+            <p>Paragraphe. Cliquez ici pour ajouter votre propre texte. Présentez-vous et votre entreprise.</p>
+        </div>
+        <div class="grid-item2 thirdCase">
+            <div class="imgGrid">
+                <img src="assets\Images\garage.webp" alt="Garage" class="itemSize">
+            </div>
+            <h4>Services de stockage</h4>
+            <p>Paragraphe. Cliquez ici pour ajouter votre propre texte. Présentez-vous et votre entreprise.</p>
+        </div>
+        <div class="grid-item2 fourthCase">
+            <div class="imgGrid">
+                <img src="assets\Images\carton.webp" alt="Homme refermant colis" class="itemSize">
+            </div>
+            <h4>Emballer et déballer</h4>
+            <p>Paragraphe. Cliquez ici pour ajouter votre propre texte. Présentez-vous et votre entreprise.</p>
+        </div>
+    </div>
+
+    <!-- Bannière divisée en deux parties égales : A gauche du texte, à droite un formulaire -->
+    <!-- Formulaire réalisé en deux colonnes alignées et centrées dans leur div -->
+
+    <div class="orangeBanner">
+        <div class="freeDevisForm">
+            <h2>Votre devis gratuit</h2>
+            <p>Paragraphe. Cliquez ici pour ajouter votre propre texte ou le modifier.</p>
+        </div>
+        <div class="form">
+            <div class="infos">
+                <div class="firstCol">
+                    <ul>
+                        <li>
+                            <label for="text">Ville déménagement *</label><br>
+                            <input type="text" id="cityFrom" name="cityFrom" required>
+                        </li>
+                        <li>
+                            <label for="date">Date déménagement *</label><br>
+                            <input type="date" id="date" name="date" required>
+                        </li>
+                        <li>
+                            <label for="name">Nom</label><br>
+                            <input type="text" id="name" required>
+                        </li>
+                    </ul>
+                </div>
+                <div class="secondCol">
+                    <ul>
+                        <li>
+                            <label for="text">Ville emmenagement *</label><br>
+                            <input type="text" id="cityTo" name="cityTo" required>
+                        </li>
+                        <li>
+                            <label for="text">Nombre de pièces *</label><br>
+                            <select name="Nombre de pièces *">
+                                <option selected disabled value="base">Selectionnez le nombre de pièces</option>
+                                <option value="1">1 pièce</option>
+                                <option value="2">2 pièces</option>
+                                <option value="3">3 pièces</option>
+                                <option value="4">4 pièces</option>
+                                <option value="5">5 pièces</option>
+                                <option value="6+">6 pièces et +</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="nombre">Télephone</label><br>
+                            <input type="tel" id="phone" name="phone" required>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="submitContainer">
+                <p class="submit">Envoyer</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer, infos copyrights et social media, CGU... -->
+
+    <footer>
+        <div>
+            <div class="logoFooter">
+                <img class="itemSize2" src="assets\Images\logo-400px.png" alt="Logo">
+            </div>
+            <p>Numero de license : 123-456-7890</p>
+            <p>&copy;2023 par Paul et fils</p>
+            <p>Crée avec Wix.com</p>
+        </div>
+        <div>
+            <div class="titleFooter">
+                <h4>Contact</h4>
+            </div>
+            <p>Tél : 01 23 45 67 89</p>
+            <p>Email : info@monsite.fr</p>
+            <p>15 rue du Château</p>
+            <p>75001 Paris, France</p>
+        </div>
+        <div>
+            <div class="titleFooter">
+                <h4>Horaires d'ouverture</h4>
+            </div>
+            <p>Lun-Ven : 7h-22h</p>
+            <p>Samedi : 8h-22h</p>
+            <p>Dimanche : 8h-23h</p>
+        </div>
+        <div>
+            <div class="titleFooter">
+                <!-- rajouter padding h4 et supprimer br -->
+                <h4>Ressources</h4>
+            </div>
+            <p>Adresses</p>
+            <p>Conseils</p>
+            <p>FAQ</p>
+            <p>Mentions légales</p>
+            <p>Politique en matière de cookies</p>
+            <p>Politique de confidentialité</p>
+            <p>Conditions d'utilisation</p>
+            <div class="footerIcons">
+                <div class="social">
+                    <img class="socialIcons" src="assets\Images\icons8-twitter-50.png" alt="twitter" />
+                </div>
+                <div class="social">
+                    <img class="socialIcons" src="assets\Images\icons8-snapchat-50.png" alt="snapchat" />
+                </div>
+                <div class="social">
+                    <img class="socialIcons" src="assets\Images\icons8-facebook-nouveau-50.png" alt="facebook" />
+                </div>
+                <div class="social">
+                    <img class="socialIcons" src="assets\Images\icons8-gmail-50.png" alt="gmail">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

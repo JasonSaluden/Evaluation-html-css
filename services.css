@@ -1,0 +1,294 @@
+/* Comme pour le style.css, bon courage. Mêmes raisons, j'ai démarré ce services.css en pensant tout ranger par la suite, erreur... Trop complexe et trop de perte de temps, autant tout recommencer. Je compte donc me rattraper sur le prochain .css */
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.blackBanner{
+    
+    background: #212121;
+    height: 4vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.menuNav{
+    display: flex;
+}
+
+.itemSize:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.menu li:hover{
+    transform: scale(1.2);
+}
+
+.itemSize{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.itemSize2{
+    height: 100%;
+    width: 100%;
+}
+
+.imgGrid{
+    max-width: 50vh;
+    height: auto;
+    justify-items: center;
+}
+
+.menu li{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.menu{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    padding: 12px;
+}
+
+.menu li:hover{
+    color: #FF5929;
+    cursor: pointer;
+}
+
+.itemRight{
+    background-color: #FF5929;
+    margin-right: 0vw;
+    align-self: center;
+    padding: 5px;
+    height: 100%;
+    width: 25%;
+}
+
+.freeDevis{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.freeDevis:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.devisButton:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.freeDevisForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-item{
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+.gridBackground{
+    background-color: #FF5929;
+    color: white;
+    font-size: 1.4em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.devisButton{
+    background-color: #FF5929;
+    border-radius: 0px;
+    border: none;
+    padding: 9px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    justify-content: center;
+    place-items: normal;
+    padding-top: 4vh;
+}
+
+.grid-item2{
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgGrid{
+    max-width: 50vh;
+    height: auto;
+    justify-items: center;
+}
+
+/* .firstCase{} */
+
+h4 {
+    margin: 1vw;
+    padding: 0;
+}
+
+p{
+    margin: 1vw;
+}
+
+.orangeBanner{
+    width: 100%;
+    background-color: #FF5929;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.infos{
+    display: flex;
+}
+
+.submit{
+    color: white;
+    height: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitContainer{
+    background-color: rgb(0, 0, 0);
+    align-self: center;
+    height: 100%;
+    width: 100%;
+}
+
+.submitContainer:hover{
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
+.titleFooter h4{
+    padding-bottom: 2vw;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1vw;
+    padding-right: 1vw;
+}
+
+.firstCol ul li{
+    list-style-type: none;
+}
+.secondCol ul li{
+    list-style-type: none;
+}
+
+input{
+    width: 80%;
+}
+select{
+    width: 80%;
+}
+
+.freeDevisForm h2{
+    color: white;
+    font-size: 2em;
+}
+
+.itemSize2{
+    width: auto;
+    height: 180px;
+    padding: 1vw;
+}
+
+.itemSize2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+div .footerIcons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    padding: 2vw;
+}
+
+.socialIcons{
+    height: 100%;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 780px) {
+    .full-width-img {
+    margin: auto;
+    width: 90%;
+    }
